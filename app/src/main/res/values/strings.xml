@@ -4,4 +4,13 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_crowed_funding">C-F</string>
+    <string name="title_action">Action</string>
+    <string name="title_profile">Profile</string>
+
 </resources>
+
+

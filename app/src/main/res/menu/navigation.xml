@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/navigation_search"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_crowed_funding"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_cloud_done_black_24dp"
+        android:title="@string/title_crowed_funding" />
+
+    <item
+        android:id="@+id/navigation_action"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_font_download_black_24dp"
+        android:title="@string/title_action" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_profile" />
+
+</menu>

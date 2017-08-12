@@ -2,16 +2,58 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/username"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.administrator.artly_android.RegisterActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="회원가입페이지"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="id" />
+
+    <EditText
+        android:id="@+id/firstnameText"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/idText"
+        android:layout_alignStart="@+id/idText"
+        android:layout_below="@+id/idText"
+        android:layout_marginTop="50dp"
+        android:hint="first" />
+
+    <EditText
+        android:id="@+id/lastnameText"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/firstnameText"
+        android:layout_alignTop="@+id/firstnameText"
+        android:layout_toEndOf="@+id/firstnameText"
+        android:layout_toRightOf="@+id/firstnameText"
+        android:hint="last" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/firstnameText"
+        android:layout_alignStart="@+id/firstnameText"
+        android:layout_below="@+id/firstnameText"
+        android:layout_marginTop="50dp"
+        android:hint="email" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="회원가입"
+        android:layout_below="@+id/emailText"
+        android:layout_alignLeft="@+id/emailText"
+        android:layout_alignStart="@+id/emailText"
+        android:layout_marginTop="50dp" />
 
 </RelativeLayout>
