@@ -4,17 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.artly_android.ActionActivity">
+    tools:context="com.example.administrator.artly_android.Action.ActionActivity">
 
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:itemBackground="@color/colorWhite"
-        app:itemIconTint="@color/bottom_section_color"
-        app:itemTextColor="@color/bottom_section_color"
-        app:menu="@menu/navigation" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action Activity"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"/>
+
+        <include layout="@layout/layout_bottom_navigation_view"/>
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

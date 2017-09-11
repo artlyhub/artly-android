@@ -1,4 +1,4 @@
-package com.example.administrator.artly_android;
+package com.example.administrator.artly_android.Login;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,10 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import org.json.JSONStringer;
-
-import java.util.HashMap;
-import java.util.Objects;
+import com.example.administrator.artly_android.Models.Artly;
+import com.example.administrator.artly_android.R;
+import com.example.administrator.artly_android.Models.User;
 
 import retrofit2.Call;
 import retrofit2.Callback;

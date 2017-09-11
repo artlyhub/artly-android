@@ -1,6 +1,5 @@
-package com.example.administrator.artly_android;
+package com.example.administrator.artly_android.Login;
 
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,8 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.administrator.artly_android.Models.Artly;
+import com.example.administrator.artly_android.Home.HomeActivity;
+import com.example.administrator.artly_android.R;
+import com.example.administrator.artly_android.Models.User;
+
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -74,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                             }
                         }
                         if(login){
-                            Intent Intent = new Intent(LoginActivity.this, MainActivity.class);
+                            Intent Intent = new Intent(LoginActivity.this, HomeActivity.class);
                             Intent.putExtra("userID",userID);
                             Intent.putExtra("userPassword",userPassword);
                             LoginActivity.this.startActivity(Intent);

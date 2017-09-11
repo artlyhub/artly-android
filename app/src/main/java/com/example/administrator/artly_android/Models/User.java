@@ -1,4 +1,4 @@
-package com.example.administrator.artly_android;
+package com.example.administrator.artly_android.Models;
 
 import com.google.gson.annotations.SerializedName;
 
